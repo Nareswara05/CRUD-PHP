@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    background-color: #3498db;
+    color: #fff;
+    padding: 20px 0;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+td {
+    align-items: center;
+    justify-content: center;
+    width: 180px;
+}
+
+th, td {
+    align-items: center;
+    justify-content: center;
+    padding: 12px 15px;
+    text-align: left;
+}
+
+th {
+    text-align: center;
+    background-color: #3498db;
+    color: #fff;
+}
+
+.tdImg {
+    width: 180px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #e0e0e0;
+}
+
+img {
+    width: 140px;
+    max-width: 200px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: #3498db;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+
+.button:hover {
+    background-color: #2980b9;
+}
+
+.btn-edit {
+    background-color: #3498db;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.btn-delete {
+    background-color: #e74c3c;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+input {
+    padding-left: 10px;
+    margin-top: 50px;
+    width: 100%; /* Lebar diubah menjadi 100% */
+    height: 40px;
+    border-radius: 5px;
+}
+
+.searchbar {    
+    display: flex;
+    width: 80%; /* Lebar diubah menjadi 80% */
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top : 50px /* Agar posisi sejajar dengan tabel */
+}
+
+.searchbtn {
+    margin-top:50px;
+    margin-left: 10px;
+    height: 40px;
+    width: 10%; 
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.searchbtn:hover{
+    background-color: #0069b0;
+}
+
+.addbtn {
+    margin-top: 50px;
+    width: 5%; 
+    margin-left: 10px;
+    height: 40px;
+    padding: 10px;
+    text-align: center;
+    background-color: #20cc00;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.addbtn:hover {
+    text-decoration: none;
+    background-color: #19a500;
+}
